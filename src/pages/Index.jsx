@@ -25,7 +25,7 @@ const Index = () => {
       </header>
 
       {/* Hero Section */}
-      <section id="home" className="relative h-[70vh] bg-cover bg-center flex items-center" style={{backgroundImage: 'url("/placeholder.svg")'}}>
+      <section id="home" className="relative h-[70vh] bg-cover bg-center flex items-center" style={{backgroundImage: 'url("/hero-dog.jpg")'}}>
         <div className="absolute inset-0 bg-black opacity-50"></div>
         <div className="container mx-auto px-4 z-10 text-white">
           <h1 className="text-5xl font-bold mb-4">Welcome to Dog World</h1>
