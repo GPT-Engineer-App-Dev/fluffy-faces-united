@@ -2,6 +2,7 @@ import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { Facebook, Instagram, Twitter } from "lucide-react";
+import { Link } from "react-router-dom";
 
 const Index = () => {
   return (
@@ -19,6 +20,7 @@ const Index = () => {
               <li><a href="#about" className="hover:text-blue-600">About</a></li>
               <li><a href="#breeds" className="hover:text-blue-600">Breeds</a></li>
               <li><a href="#contact" className="hover:text-blue-600">Contact</a></li>
+              <li><Link to="/puppies" className="hover:text-blue-600">Puppies</Link></li>
             </ul>
           </nav>
         </div>
